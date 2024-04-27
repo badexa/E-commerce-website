@@ -1,0 +1,144 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.8125rem;
+    color: #333;
+}
+
+/* Header styles */
+.hero {
+    background-image: url('/cod/accessoires-automobile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 25%;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+/* Search and filter container styles */
+.filter-container,
+.search-container {
+    margin-bottom: 20px;
+}
+
+.filter-container button[type="submit"],
+.search-container button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.filter-container button[type="submit"]:hover,
+.search-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Product card styles */
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem;
+}
+
+.card-img-actions {
+    position: relative;
+}
+
+.card-img {
+    width: 350px;
+}
+
+.star {
+    color: red;
+}
+
+/* Button styles */
+.bg-cart {
+    background-color: orange;
+    color: #fff;
+}
+
+.bg-cart:hover {
+    color: blue;
+}
+
+.bg-buy {
+    background-color: green;
+    color: #fff;
+    padding-right: 29px;
+}
+
+.bg-buy:hover {
+    color: #fff;
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination .page-link {
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    margin: 0 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: #0056b3;
+    color: white;
+    border-color: #0056b3;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+/* Margin and padding classes */
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+/* Anchor tag styles */
+a {
+    text-decoration: none !important;
+}
